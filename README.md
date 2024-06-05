@@ -1,6 +1,8 @@
 # Proyecto: Servidores de Comandos
 
-Este proyecto se basa en el desarrollo y configuración de un sistema cliente-servidor donde los clientes, implementados en Python y C++ en una máquina virtual con Windows, se comunican con servidores en una máquina virtual con Linux. Los servidores ejecutan comandos en Linux recibidos de los clientes y devuelven las respuestas. La comunicación entre clientes y servidores se realiza mediante sockets. Además, las máquinas virtuales están configuradas en una red interna con IPs específicas para facilitar la comunicación.
+Este proyecto se basa en el desarrollo y configuración de un sistema cliente-servidor donde los clientes, implementados en Python y C++ en una máquina virtual con Windows, se comunican con servidores en una máquina virtual con Linux. Los servidores ejecutan comandos en Linux recibidos de los clientes y devuelven las respuestas. La comunicación entre clientes y servidores se realiza mediante sockets. 
+
+![](Socket.png)
 
 ## Estructura del Proyecto
 
@@ -27,16 +29,11 @@ Este servidor maneja una conexión a la vez, procesando cada solicitud de client
 
 ### Servidor de Procesos Pesados
 
-Este servidor crea un nuevo proceso para manejar cada solicitud del cliente, permitiendo así una mayor concurrencia a costa de un mayor uso de recursos.
+Este servidor crea un nuevo proceso para manejar cada solicitud del cliente.
 
-### Servidor de Hilos Dinámicos
+### Servidor de Hilos Dinámicos - Estáticos (cantidad definida de hilos)
 
-Este servidor crea un nuevo hilo para cada solicitud del cliente, permitiendo una concurrencia más eficiente en comparación con los procesos pesados.
-
-### Servidor de Hilos Estáticos
-
-Este servidor utiliza un pool de hilos pre-creados para manejar las solicitudes de los clientes, optimizando el uso de recursos y mejorando el rendimiento en comparación con la creación dinámica de hilos.
-
+Este servidor crea un nuevo hilo para manejar cada solicitud del cliente.
 
 ## Uso del Sistema
 
@@ -44,3 +41,8 @@ Este servidor utiliza un pool de hilos pre-creados para manejar las solicitudes 
 2. Iniciar el cliente en la máquina Windows.
 3. Ejecutar el servidor 
 4. Ejecutar el o los clientes.
+
+#### Referencias
+https://www.youtube.com/watch?v=Qj6B4pYnH1g
+https://www.youtube.com/watch?v=FGF_lm7tgLA
+https://www.youtube.com/watch?v=gzSfxqQtD0I
