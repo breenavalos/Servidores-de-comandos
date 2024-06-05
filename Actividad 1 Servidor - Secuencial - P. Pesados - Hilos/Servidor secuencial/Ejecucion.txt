@@ -1,0 +1,44 @@
+VIDEO DE REFERENCIA:https://www.youtube.com/watch?v=Qj6B4pYnH1g
+--------------------------------------------------------
+Windows XP:
+
+C:\Documents and Settings\Administrador\Escritorio
+me baje C:\Users\BAVALOS\Desktop> gcc --version
+gcc.exe (MinGW.org GCC-6.3.0-1) 6.3.0 para ejecutar .c
+
+
+EJECUCION WINDOWS CLIENTE:
+gcc cliente_act1.c -o cliente -lws2_32
+cliente
+
+
+EJECUCION LINUX SERVIDOR:
+
+bavalos@Linux-Debian:~/Carpeta compartida/Actividad 1 - Cliente XP - Servidor Linux$ cc sevidor_act1.c -o serv
+
+
+ls
+cd programas_linux
+cc servidor_prueba_mia.c
+./a.out
+
+/usr/sbin/ifconfig
+ip addr show //para obtener la IP del servidor  inet_addr("172.28.81.53");
+ip ad
+
+bavalos@Linux-Debian:~/Carpeta compartida/Cliente XP - Servidor Linux$ cc sevidor_act1.c
+bavalos@Linux-Debian:~/Carpeta compartida/Cliente XP - Servidor Linux$ ./a.out 192.168.100.5 8080
+
+
+----------------------------------------------
+
+VALIDAR CONECTIVIDAD ENTRE AMBAS MAQUINAS VIRUTALES:
+ping 192.168.100.5
+
+MODIFICACIONES RELAIZADAS:
+1- PUERTO 8080
+2- Funcion UbicacionDelServidor() ( que informa la ubicacion detalle del servidor tuve que cambiarlo porque me fallaba la funcion gethostbyaddr()
+
+
+
+

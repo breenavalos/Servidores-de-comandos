@@ -1,0 +1,41 @@
+VIDEO DE REFERENCIA: https://www.youtube.com/watch?v=FGF_lm7tgLA
+
+Bajar para windows xp python-3.4.4.exe
+
+Agregarlo en las variables de entorno "MI PC"
+
+------------------------
+
+
+Se ejecuta en la maquina virtual Windows XP - cliente
+
+python ClientesComandos.py 192.168.100.5 6666
+
+
+Se ejecuta en la maquina virtual Linux Debian
+
+cc servidor_pe.c
+
+cls //limpia xp
+
+-----------------------
+
+Ejecutar " ps -l " para las ejecuciones de procesos.
+
+En la foto se puede visualizar los servidores hijos 3029 y 3037
+tienen cocmo padre PPID 3024 que es el padre
+
+---------------------
+
+capturamos la señal SIGNCHIL cuando finaliza un proceso hijo 
+void mataZombies_Handler_De_SIGCHL(int);
+
+
+bavalos@Linux-Debian:~/Carpeta compartida/Actividad 1 - Cliente XP - Servidor Linux/Servidor procesos pesados$ cc servidor_pe_mataZombie.c
+bavalos@Linux-Debian:~/Carpeta compartida/Actividad 1 - Cliente XP - Servidor Linux/Servidor procesos pesados$ ./a.out 192.168.100.5 6666
+idsocks 3
+
+-------------------
+--Abre el calendario
+cal 2024
+

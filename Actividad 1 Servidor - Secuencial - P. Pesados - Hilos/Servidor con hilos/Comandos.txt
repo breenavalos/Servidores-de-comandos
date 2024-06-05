@@ -1,0 +1,27 @@
+VIDEO DE REFERENCIA HILOS DINAMICOS (12:34)
+HILOS : https://www.youtube.com/watch?v=gzSfxqQtD0I
+
+VIDEO DE VARIABLES DE CONDICIÓN PARA LA SINCRONIZACIÓN DE HILOS
+https://www.youtube.com/watch?v=AtB57UpIIos
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+--EJECUCION EN LINUX
+Debemos compilar con la libreria de hilos.
+bavalos@Linux-Debian:~/Carpeta compartida/Actividad 1 - Cliente XP - Servidor Linux/Servidor con hilos$ cc servidor_hilos.c -lpthread
+
+./a.out 192.168.100.5 6666
+
+
+--EJECUCION EN WINDOWS XP
+python ClientesComandos.py 192.168.100.5 6666
+
+
+--Lista de ejecucion de procesos
+ps -l
+Los hilos estan dentro del servidor.
+
+--Calendario
+cal 2024
+
+cls //limpia xp
