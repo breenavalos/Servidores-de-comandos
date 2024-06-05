@@ -2,7 +2,7 @@
 
 Este proyecto se basa en el desarrollo y configuración de un sistema cliente-servidor donde los clientes, implementados en Python y C++ en una máquina virtual con Windows, se comunican con servidores en una máquina virtual con Linux. Los servidores ejecutan comandos en Linux recibidos de los clientes y devuelven las respuestas. La comunicación entre clientes y servidores se realiza mediante sockets. Además, las máquinas virtuales están configuradas en una red interna con IPs específicas para facilitar la comunicación.
 
-![](https://drive.google.com/file/d/1cfGvewdD6UzZbalT6dv7NdpLi61ViJ9T/view?usp=sharing)
+![]([https://drive.google.com/file/d/1cfGvewdD6UzZbalT6dv7NdpLi61ViJ9T/view?usp=sharing](https://images.app.goo.gl/iDxAXXsf2539uxV7A))
 
 ## Estructura del Proyecto
 
